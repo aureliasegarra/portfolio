@@ -26,7 +26,6 @@ const Header = () => {
       traX = ((4 * mouseX) / 570) + 40;
       // eslint-disable-next-line prettier/prettier
       traY = ((4 * mouseY) / 570) + 50;
-      console.log(traX);
       // eslint-disable-next-line prefer-template
       title.style.backgroundPosition = traX + '%' + traY + '%';
     });
@@ -55,7 +54,7 @@ const Header = () => {
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
-            <span className="cta-btn cta-btn--hero">
+            <span className="cta-btn cta-btn--resume">
               <Link to="about" smooth duration={1000}>
                 {cta || 'Know more'}
               </Link>
