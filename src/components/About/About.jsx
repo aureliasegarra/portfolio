@@ -7,7 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree, paragraphFour } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -39,14 +39,19 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'I am a javascript developer that focuses on front-end framework : react and react-native.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'I ‘m also interested  in designs systems, web accessibility, server-less technologies ( Netlify, Surge, AWS).'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree ||
+                    'To grow my skills I focus on building a JAM stack application for a non profits association (Gatsby). Association called « Aid a zot »  in Reunion island (Javascript API’s Markup).'}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphFour ||
+                    'I’m also interested in the meta skill of « learning how to learn » by cultivating curiosity and adaptability.This allows me to improve my  lifelong  learning and continuous self-improvement skills.'}
                 </p>
               </div>
             </Fade>
