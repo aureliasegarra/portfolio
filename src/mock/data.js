@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'av.segarra@gmail.com',
 };
 
 // FOOTER DATA
