@@ -11,7 +11,29 @@ const Header = () => {
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
+  function moveTitle() {
+    // eslint-disable-next-line one-var
+    let mouseX, mouseY;
+    // eslint-disable-next-line one-var
+    let traX, traY;
+    // eslint-disable-next-line no-shadow
+    const title = document.querySelector('h1');
+    // eslint-disable-next-line prettier/prettier
+    document.addEventListener('mousemove', function(e) {
+      mouseX = e.pageX;
+      mouseY = e.pageY;
+      // eslint-disable-next-line prettier/prettier
+      traX = ((4 * mouseX) / 570) + 40;
+      // eslint-disable-next-line prettier/prettier
+      traY = ((4 * mouseY) / 570) + 50;
+      console.log(traX);
+      // eslint-disable-next-line prefer-template
+      title.style.backgroundPosition = traX + '%' + traY + '%';
+    });
+  }
+
   useEffect(() => {
+    moveTitle();
     if (window.innerWidth > 769) {
       setIsDesktop(true);
       setIsMobile(false);
