@@ -21,6 +21,22 @@
   }
 }
 
+.cta-btn--hero--eye {
+  color: #282c34;
+  &:hover {
+    -webkit-text-fill-color: $white-color;
+    text-decoration: none;
+    background-color: #282c34;
+    // Responsive Button hover hero style
+    @include respond(phone) {
+      -webkit-text-fill-color: $secondary-color;
+    }
+  }
+  &::after {
+    width: 100%;
+  }
+}
+
 /* Hero Style */
 .cta-btn--hero {
   background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
