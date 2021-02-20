@@ -28,30 +28,31 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project1.png',
+    title: 'Recipe App',
+    info:
+      'A react website for searching recipes. The user can access to the favorites recipes after logged in.',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/aureliasegarra/MyRecipe', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project2.png',
+    title: 'Chat App',
+    info: 'A chat application with identification system to play with websocket server and UX/UI',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/aureliasegarra/MyMessenger', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project3.png',
+    title: 'Blog Page',
+    info: 'A blog to display articles after fetching datas via an API',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/aureliasegarra/BlogReact-V2', // if no repo, the button will not show up
   },
 ];
 

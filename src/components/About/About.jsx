@@ -47,7 +47,7 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphThree ||
-                    'To grow my skills I focus on building a JAM stack application for a non profits association (Gatsby). Association called « Aid a zot »  in Reunion island (Javascript API’s Markup).'}
+                    'To grow my skills I focus on building a JAM stack application (Gatsby) for a non profits association (Javascript API’s Markup).'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphFour ||
