@@ -43,7 +43,7 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'I ‘m also interested  in designs systems, web accessibility, server-less technologies ( Netlify, Surge, AWS).'}
+                    'I have an attraction for designs systems, web accessibility and server-less technologies ( Netlify, Surge).'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphThree ||

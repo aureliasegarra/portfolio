@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profileA.png',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -40,7 +40,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project2.png',
     title: 'Chat App',
-    info: 'A chat application with identification system to play with websocket server and UX/UI',
+    info: 'A chat application with identification system to introduce websocket server and UX/UI',
     info2: '',
     url: '',
     repo: 'https://github.com/aureliasegarra/MyMessenger', // if no repo, the button will not show up
