@@ -28,6 +28,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'project3.png',
+    title: 'Oak project',
+    info:
+      'End of studies project on the creation of an application to manage reading lists for children.',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/aureliasegarra/Oak', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'project1.png',
     title: 'Recipe App',
     info:
@@ -44,15 +54,6 @@ export const projectsData = [
     info2: '',
     url: '',
     repo: 'https://github.com/aureliasegarra/MyMessenger', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project3.png',
-    title: 'Oak project',
-    info: 'End of studies project on the creation of an application to manage reading lists for children.',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/aureliasegarra/Oak', // if no repo, the button will not show up
   },
 ];
 
