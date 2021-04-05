@@ -48,11 +48,11 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project3.png',
-    title: 'Blog Page',
-    info: 'A blog to display articles after fetching datas via an API',
+    title: 'Oak project',
+    info: 'End of studies project on the creation of an application to manage reading lists for children.',
     info2: '',
     url: '',
-    repo: 'https://github.com/aureliasegarra/BlogReact-V2', // if no repo, the button will not show up
+    repo: 'https://github.com/aureliasegarra/Oak', // if no repo, the button will not show up
   },
 ];
 
