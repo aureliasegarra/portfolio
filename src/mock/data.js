@@ -30,30 +30,28 @@ export const projectsData = [
     id: nanoid(),
     img: 'project3.png',
     title: 'Oak project',
-    info:
-      'End of studies project on the creation of an application to manage reading lists for children.',
+    info: 'End of studies project on the creation of an application to manage reading lists for children.',
     info2: '',
     url: '',
     repo: 'https://github.com/aureliasegarra/Oak', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project1.png',
-    title: 'Recipe App',
-    info:
-      'A react website for searching recipes. The user can access to the favorites recipes after logged in.',
+    img: 'project2.png',
+    title: 'Landing page',
+    info: 'Tech landing page to explore Vue.js and Tailwindcss',
     info2: '',
     url: '',
-    repo: 'https://github.com/aureliasegarra/MyRecipe', // if no repo, the button will not show up
+    repo: 'https://github.com/aureliasegarra/LandingPage', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project2.png',
-    title: 'Chat App',
-    info: 'A chat application with identification system to introduce websocket server and UX/UI',
+    img: 'project1.png',
+    title: 'Recipe App',
+    info: 'A react website for searching recipes. The user can access to the favorites recipes after logged in.',
     info2: '',
     url: '',
-    repo: 'https://github.com/aureliasegarra/MyMessenger', // if no repo, the button will not show up
+    repo: 'https://github.com/aureliasegarra/MyRecipe', // if no repo, the button will not show up
   },
 ];
 
